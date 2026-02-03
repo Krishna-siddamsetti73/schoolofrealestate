@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Home, MapPin, Award } from 'lucide-react';
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -46,6 +47,7 @@ const Hero = () => {
   ];
 
   return (
+    
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
 
       {/* Background */}
@@ -61,15 +63,20 @@ const Hero = () => {
           >
             {slides[currentSlide].type === "video" ? (
               <video
-                autoPlay
-                loop
-                muted
-                playsInline
+  autoPlay
+  loop
+  muted
+  playsInline
+  preload="metadata"
+  aria-label="Real estate training institute Hyderabad introduction video"
+
                 className="object-cover w-full h-full"
                 src={slides[currentSlide].src}
               />
             ) : (
               <img
+                 loading="lazy"
+  decoding="async"
                 className="object-cover w-full h-full"
                 src={slides[currentSlide].src}
                 alt={slides[currentSlide].title}
@@ -139,25 +146,29 @@ const Hero = () => {
             transition={{ duration: 0.5 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
-              {slides[currentSlide].title}
-            </h1>
+           <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
 
-            <h2 className="text-2xl md:text-3xl lg:text-4xl text-[#D4A017] mb-6 font-semibold">
-              {slides[currentSlide].subtitle}
+              {slides[currentSlide].title}
             </h2>
+
+            <h3 className="text-2xl md:text-3xl lg:text-4xl text-[#D4A017] mb-6 font-semibold">
+              {slides[currentSlide].subtitle}
+            </h3>
 
             <p className="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto leading-relaxed">
               {slides[currentSlide].description}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+              <a href="#courses">
+
               <button
                 onClick={() => document.getElementById("courses").scrollIntoView({ behavior: "smooth" })}
                 className="bg-[#D4A017] hover:bg-[#B8860B] text-white px-10 py-4 rounded-full font-semibold text-lg"
               >
                 {t("hero.buttons.explore")}
               </button>
+              </a>
 
               <button
                 onClick={() => document.getElementById("contact").scrollIntoView({ behavior: "smooth" })}

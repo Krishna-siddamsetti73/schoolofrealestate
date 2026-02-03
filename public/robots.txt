@@ -1,5 +1,42 @@
 User-agent: *
 Allow: /
 
-# XML Sitemap Location
+# Block unnecessary system files
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /.git/
+Disallow: /*.json$
+
+# Allow important assets
+Allow: /gallery/
+Allow: /assets/
+Allow: /*.js
+Allow: /*.css
+Allow: /*.webp
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.mp4
+Allow: /*.webm
+
+# Sitemap Location
 Sitemap: https://www.hsre.in/sitemap.xml
+
+
+# --- AI & Modern Search Crawlers ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /

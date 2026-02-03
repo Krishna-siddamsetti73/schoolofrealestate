@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
   <!-- Home Page -->
   <url>
     <loc>https://www.hsre.in/</loc>
-    <lastmod>2024-11-20</lastmod>
+    <lastmod>2026-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -12,7 +15,7 @@
   <!-- Courses Page -->
   <url>
     <loc>https://www.hsre.in/courses</loc>
-    <lastmod>2024-11-20</lastmod>
+    <lastmod>2026-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -20,9 +23,46 @@
   <!-- Contact Page -->
   <url>
     <loc>https://www.hsre.in/contact</loc>
-    <lastmod>2024-11-20</lastmod>
+    <lastmod>2026-02-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <!-- Homepage Sections (Important for Jump Link SEO & Rich Results) -->
+  <url>
+    <loc>https://www.hsre.in/#about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hsre.in/#courses</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hsre.in/#gallery</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hsre.in/#faqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hsre.in/#testimonials</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hsre.in/#contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>

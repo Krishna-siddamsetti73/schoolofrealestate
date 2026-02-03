@@ -2,19 +2,37 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 import { useTranslation } from "react-i18next";
-
+import { Helmet } from "react-helmet";
 const FAQs = () => {
   const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = t("faqs.items", { returnObjects: true });
+  const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+};
 
   const toggleFAQ = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
   return (
-    <section id="faqs" className="py-20 bg-[#FAF6EF]">
+    <section id="faqs" className="py-20 bg-[#FAF6EF]"  aria-label="Frequently Asked Questions">
+      <Helmet>
+  <script type="application/ld+json">
+    {JSON.stringify(faqSchema)}
+  </script>
+</Helmet>
+
       <div className="container mx-auto px-4">
         
         {/* Title */}
@@ -46,6 +64,7 @@ const FAQs = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group"
+              itemScope itemType="https://schema.org/Question"
             >
               <div
                 className={`bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border-2 ${
@@ -54,10 +73,15 @@ const FAQs = () => {
               >
                 {/* FAQ Question */}
                 <button
+      
+  aria-expanded={openIndex === index}
+  aria-controls={`faq-answer-${index}`}
+  id={`faq-question-${index}`}
+
                   onClick={() => toggleFAQ(index)}
                   className="w-full px-6 md:px-8 py-6 flex items-center justify-between text-left hover:bg-[#FAF6EF] transition-colors duration-300"
                 >
-                  <h3 className="text-lg md:text-xl font-semibold text-[#2F3542] pr-4 group-hover:text-[#1E3A8A] transition-colors">
+                  <h3 className="text-lg md:text-xl font-semibold text-[#2F3542] pr-4 group-hover:text-[#1E3A8A] transition-colors" itemProp="name">
                     {faq.question}
                   </h3>
 
@@ -88,9 +112,12 @@ const FAQs = () => {
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3 }}
                       className="overflow-hidden"
+                      id={`faq-answer-${index}`}
+                      aria-labelledby={`faq-question-${index}`}
+
                     >
-                      <div className="px-6 md:px-8 pb-6 bg-gradient-to-b from-[#FAF6EF]/50 to-transparent">
-                        <p className="text-gray-700 leading-relaxed text-base md:text-lg">
+                      <div className="px-6 md:px-8 pb-6 bg-gradient-to-b from-[#FAF6EF]/50 to-transparent" itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                        <p className="text-gray-700 leading-relaxed text-base md:text-lg" itemProp="text">
                           {faq.answer}
                         </p>
                       </div>

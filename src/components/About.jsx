@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import {
@@ -35,19 +36,42 @@ const About = () => {
   };
 
   return (
+    
     <section
       id="about"
       className="bg-white flex items-center"
       style={{ minHeight: `calc(100vh - ${HEADER_HEIGHT}px)` }}
     >
-      <div className="container mx-auto px-4 md:px-6 flex flex-col">
+      <Helmet>
+  <title>About Hyderabad School of Real Estate | HSRE Hyderabad</title>
+  <meta
+    name="description"
+    content="Learn about Hyderabad School of Real Estate (HSRE), a leading institute offering real estate training, RERA certification courses, and property investment education in Hyderabad."
+  />
+  <meta
+    name="keywords"
+    content="Hyderabad real estate institute, about HSRE, real estate training Hyderabad, learn real estate Hyderabad, RERA training institute Hyderabad"
+  />
+  <link rel="canonical" href="https://hsre.in/about" />
+  <script type="application/ld+json">
+{`
+{
+ "@context": "https://schema.org",
+ "@type": "AboutPage",
+ "name": "About Hyderabad School of Real Estate",
+ "url": "https://hsre.in/about"
+}
+`}
+</script>
 
-        {/* TITLE */}
+</Helmet>
+
+      <div className="container mx-auto px-4 md:px-6 flex flex-col">
         <div className="text-center pt-24 md:pt-6 pb-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#2F3542] mb-2">
+          <h1 className="text-xl md:text-4xl font-bold text-[#2F3542] mb-2">
             {t("about.title")}{" "}
             <span className="text-[#D4A017]">{t("about.highlight")}</span>
-          </h2>
+          </h1>
           <div className="w-16 h-1 bg-[#1E3A8A] mx-auto rounded-full" />
         </div>
 
@@ -59,15 +83,16 @@ const About = () => {
             <div className="w-full max-w-[260px] md:max-w-xs">
 
               <div className="relative aspect-[3/4] max-h-[360px] md:max-h-[380px] rounded-2xl border-4 border-[#D4A017] shadow-xl overflow-hidden">
-                <video
-                  ref={videoRef}
-                  src="/Hyderabads (1).webm"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
+               <video
+  ref={videoRef}
+  src="/Hyderabads (1).webm"
+  autoPlay
+  loop
+  muted
+  playsInline
+  aria-label="Hyderabad Real Estate Training Video at HSRE"
+  className="absolute inset-0 w-full h-full object-cover"
+/>
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
 

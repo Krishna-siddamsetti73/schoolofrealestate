@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { useToast } from '@/components/ui/use-toast';
 import { useTranslation } from "react-i18next";
 import i18n from "i18next";
+import { Helmet } from "react-helmet-async";
 const Contact = () => {
   const { toast } = useToast();
   const { t } = useTranslation();
@@ -91,7 +92,63 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-20 bg-white relative overflow-hidden">
-      {/* Background Decoration */}
+
+  <Helmet>
+  <title>Contact HSRE | Real Estate Training Institute Hyderabad</title>
+
+  <meta
+    name="description"
+    content="Contact Hyderabad School of Real Estate for RERA training, property investment courses, and real estate certification in Hyderabad. Call, WhatsApp, or visit our institute today."
+  />
+
+  <link rel="canonical" href="https://hsre.in/#contact" />
+
+  <meta name="robots" content="index, follow" />
+
+  {/* Open Graph */}
+  <meta property="og:title" content="Contact Hyderabad School of Real Estate" />
+  <meta property="og:description" content="Get in touch with HSRE for real estate training and certification courses in Hyderabad." />
+  <meta property="og:url" content="https://hsre.in/#contact" />
+  <meta property="og:type" content="website" />
+
+  {/* Local Business Structured Data */}
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Hyderabad School of Real Estate",
+      "image": "https://hsre.in/favicon.ico",
+      "url": "https://hsre.in",
+      "telephone": "+91-8977533213",
+      "email": "info@hsre.in",
+
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Hyderabad",
+        "addressRegion": "Telangana",
+        "addressCountry": "IN"
+      },
+
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 17.4242,
+        "longitude": 78.4230
+      },
+
+      "openingHours": "Mo-Sa 10:00-19:00",
+
+      "sameAs": [
+        "https://www.facebook.com/",
+        "https://www.instagram.com/",
+        "https://www.linkedin.com/"
+      ]
+    }
+    `}
+  </script>
+</Helmet>
+
+
       <div className="absolute inset-0 opacity-5">
         <div
           className="absolute inset-0"
