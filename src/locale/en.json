@@ -1,0 +1,402 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "courses": "Courses",
+    "gallery": "Gallery",
+    "faqs": "FAQs",
+    "contact": "Contact",
+    "enroll": "Enroll Now",
+    "joinBatch": "Join Batch",
+    "call": "89775 33213"
+  }
+,
+
+  "hero": {
+    "slide1": {
+      "title": "Master Real Estate Training",
+      "subtitle": "Learn from Industry Experts in Hyderabad",
+      "description": "Comprehensive training in RERA, HMDA, DTCP regulations and sales strategies"
+    },
+    "slide2": {
+      "title": "Explore Hyderabad's Real Estate Market",
+      "subtitle": "Understanding Local Property Dynamics",
+      "description": "Get insights into Hyderabad's booming real estate sector"
+    },
+    "slide3": {
+      "title": "Become a Certified Real Estate Agent",
+      "subtitle": "Start Your Professional Journey Today",
+      "description": "Industry-recognized certification and career support"
+    },
+    "buttons": {
+      "explore": "Explore Courses",
+      "contact": "Contact Us"
+    }
+  }
+,
+  "about": {
+    "title": "About",
+    "highlight": "Our Institute",
+    "subTitle": "Leading Real Estate Training in Hyderabad",
+    "description1": "Welcome to Hyderabad School of Real Estate, where we transform aspiring professionals into successful real estate agents. With years of industry experience and expert trainers, we provide comprehensive education covering all aspects of the real estate business.",
+    "description2": "Our curriculum includes RERA regulations, HMDA and DTCP guidelines, property documentation, sales techniques,Communication & marketing strategies tailored specifically for Hyderabad's dynamic real estate market.",
+    "imageAlt": "Real estate training classroom session",
+
+    "features": {
+      "certification": "Industry Certification",
+      "knowledge": "Comprehensive Property Knowledge",
+      "salesSkills": "Advanced Sales Skills",
+      "experience": "Practical Field Experience"
+    }
+  }
+,
+
+  "courses_section": {
+    "heading": "Our Courses",
+    "description": "Comprehensive training programs designed to make you a successful real estate professional",
+    "view_full": "View Full Curriculum"
+  },
+
+  "courses_list": {
+    "real_estate_basics": "Real Estate Basics",
+    "real_estate_basics_desc": "Fundamental concepts, property types, market dynamics, and industry terminology",
+
+    "agent_training": "Real Estate Agent Training",
+    "agent_training_desc": "Professional skills, client management, negotiation tactics, and sales strategies",
+
+    "regulations": "RERA / HMDA / DTCP Regulations",
+    "regulations_desc": "Complete understanding of legal frameworks, compliance, and regulatory requirements",
+
+    "sales_marketing": "Sales, Marketing & Communication Skills",
+    "sales_marketing_desc": "Advanced marketing techniques, lead generation, conversion strategies, and branding",
+
+    "documentation": "Documentation & Legal",
+    "documentation_desc": "Property documentation, contracts, agreements, registration, and legal procedures",
+
+    "digital_marketing": "Digital and Communication Skills",
+    "digital_marketing_desc": "Social media marketing, online listings, SEO, content creation, and digital advertising"
+  },
+  "courses": {
+    "title": "Our",
+    "highlight": "Courses",
+    "subtitle": "Comprehensive training programs designed to make you a successful real estate professional",
+    "fullCurriculum": "View Full Curriculum",
+
+    "items": {
+      "realEstateBasics": {
+        "title": "Real Estate Basics",
+        "description": "Fundamental concepts, property types, market dynamics, and industry terminology"
+      },
+      "agentTraining": {
+        "title": "Real Estate Agent Training",
+        "description": "Professional skills, client management, negotiation tactics, and sales strategies"
+      },
+      "regulations": {
+        "title": "RERA/HMDA/DTCP Regulations",
+        "description": "Complete understanding of legal frameworks, compliance, and regulatory requirements"
+      },
+      "salesMarketing": {
+        "title": "Sales & Marketing",
+        "description": "Advanced marketing techniques, lead generation, conversion strategies, and branding"
+      },
+      "documentation": {
+        "title": "Documentation & Legal",
+        "description": "Property documentation, contracts, agreements, registration, and legal procedures"
+      },
+      "digitalMarketing": {
+        "title": "Digital and Communication Skills",
+        "description": "Social media marketing, online listings, SEO, content creation, and digital advertising"
+      }
+    }
+  },
+  "why": {
+    "title": {
+      "part1": "Why Choose",
+      "part2": "Us"
+    },
+    "subtitle": "Discover what makes us the preferred choice for real estate education in Hyderabad",
+
+    "features": {
+      "easy": {
+        "title": "Easy to Understand",
+        "description": "Simple, practical teaching methods that make complex concepts clear and accessible"
+      },
+      "practical": {
+        "title": "Practical Training",
+        "description": "Hands-on experience with real-world scenarios and live property visits"
+      },
+      "affordable": {
+        "title": "Affordable Fees",
+        "description": "Quality education at competitive prices with flexible payment options"
+      },
+      "certification": {
+        "title": "Industry Certification",
+        "description": "Recognized certification that opens doors to professional opportunities"
+      },
+      "realExamples": {
+        "title": "Real Field Examples",
+        "description": "Learn from actual case studies and successful real estate transactions"
+      },
+      "hyderabadFocus": {
+        "title": "Hyderabad Market Focus",
+        "description": "Specialized training in local market trends, areas, and opportunities"
+      }
+    }
+  },
+  "faqs": {
+    "title": {
+      "part1": "Frequently Asked",
+      "part2": "Questions"
+    },
+    "subtitle": "Find answers to common questions about our real estate training programs",
+    "items": [
+      {
+        "question": "What is the duration of the real estate training program?",
+        "answer": "Our comprehensive real estate training program typically runs for 10 days and Timings are 10:30 AM to 1:30 PM.Lunch is also provided."
+      },
+      {
+        "question": "Do I need any prior experience in real estate?",
+        "answer": "No prior experience is required! Our courses are designed for beginners as well as those looking to enhance their existing knowledge. We start from the basics and gradually move to advanced topics."
+      },
+      {
+        "question": "Will I receive a certification after completing the course?",
+        "answer": "Yes! Upon successful completion of the program, you will receive an industry-recognized certification from Hyderabad School of Real Estate that will help you in your professional career."
+      },
+      {
+        "question": "What topics are covered in the curriculum?",
+        "answer": "Our curriculum covers Real Estate Basics, RERA/HMDA/DTCP regulations, Sales & Marketing, Documentation, Legal aspects, Digital and Communication Skills, and practical field training with live property visits."
+      },
+      {
+        "question": "What are the fees for the course?",
+        "answer": "We offer competitive and affordable fees of ₹9,999. Please contact us at 89775 33213 for detailed fee structure and any ongoing offers."
+      },
+      {
+        "question": "Do you provide job placement assistance?",
+        "answer": "Yes, we provide 100% placement and  comprehensive career support  with  connections with leading real estate companies in Hyderabad."
+      },
+      {
+        "question": "Are there practical training sessions included?",
+        "answer": "Absolutely! We believe in hands-on learning. Our program includes field visits, live property inspections, client interaction scenarios, and real-world case studies."
+      },
+      {
+        "question": "Can I attend classes on weekends?",
+        "answer": "Yes, we offer both weekday and weekend batches to accommodate working professionals and students. You can choose the schedule that best fits your availability."
+      }
+    ]
+  },
+  "contact": {
+    "title": {
+      "part1": "Get in",
+      "part2": "Touch"
+    },
+    "subtitle": "Ready to start your real estate career? Contact us today for more information",
+
+    "form": {
+      "heading": "Send us a Message",
+      "nameLabel": "Your Name",
+      "namePlaceholder": "Enter your name",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "Enter your phone",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Your message...",
+      "submit": "Send Message"
+    },
+
+    "info": {
+      "callTitle": "Call Us",
+      "emailTitle": "Email Us",
+      "visitTitle": "Visit Us",
+      "address": "Hyderabad, Telangana, India"
+    },
+
+    "mapTitle": "Hyderabad Location Map",
+
+    "toast": {
+      "successTitle": "Message Sent! 🎉",
+      "successDescription": "Thank you for contacting us. We'll get back shortly.",
+      "errorTitle": "Error ❌",
+      "errorDescription": "Unable to send your message.",
+      "networkTitle": "Network Error ❌",
+      "networkDescription": "Could not connect to the server."
+    }
+  },
+  
+  "footer": {
+    "about": {
+      "description": "Leading real estate training institute in Hyderabad, providing comprehensive education and certification programs."
+    },
+
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About",
+      "courses": "Courses",
+      "gallery": "Gallery",
+      "faqs": "FAQs",
+      "contact": "Contact"
+    },
+
+    "courses": {
+      "title": "Course Outcomes",
+      "basics": "Real Estate Basics",
+      "agent": "Agent Training",
+      "rera": "RERA/HMDA/DTCP",
+      "sales": "Sales & Marketing",
+      "docs": "Documentation",
+      "digital": "Digital and Communication Skills"
+    },
+
+    "contact": {
+      "title": "Contact Us",
+      "call": "Call Us",
+      "email": "Email Us",
+      "location": "Location",
+      "address": "Hyderabad, Telangana, India"
+    },
+
+    "payment": {
+      "button": "Make Payment Now"
+    },
+
+    "seo": {
+      "title": "About Hyderabad School of Real Estate Courses",
+      "description": "Hyderabad School of Real Estate offers the most comprehensive real estate training in Telangana..."
+    },
+
+    "bottom": {
+      "rights": "All Rights Reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "coursesPage": {
+    "hero": {
+      "tagline": "Hyderabad’s Most Practical Real Estate Training",
+      "title1": "Become a",
+      "title2": "Top 1%",
+      "title3": "Real Estate Professional",
+      "subtitle1": "Master",
+      "subtitle2": "RERA, Sales, Documentation, Communication Skills & Marketing",
+      "subtitle3": "with live case studies, expert mentorship, and real-world deals.",
+      "stats1": "Students",
+      "stats2": "Earned by Alumni",
+      "stats3": "Student Rating",
+      "enrollBtn": "Enroll Now   Limited Seats",
+      "callBtn": "Call 8977533213",
+      "batchInfo": "Next batch starting  19/01/2026 • Includes field visits"
+    },
+
+    "card": {
+      "flagship": "Flagship Program",
+      "title": "Real Estate Mastery Course",
+      "point1": "10 Days Intensive Training",
+      "point2": "Live Deal Closures & Role Plays",
+      "point3": "On-field Property & Layout Visits",
+      "point4": "100% Placement",
+      "starting": "Starting from",
+      "emi": "EMI options available",
+      "enrollNow": "Enroll Now"
+    },
+
+    "courses": {
+      "basics": {
+        "title": "Real Estate Basics",
+        "desc": "Master fundamentals of property markets, types, and core concepts.",
+        "topic1": "Property Types & Zoning",
+        "topic2": "Market Analysis",
+        "topic3": "Real Estate Economics"
+      },
+      "agent": {
+        "title": "Real Estate Agent Training",
+        "desc": "Develop professional skills for becoming a successful agent.",
+        "topic1": "Client Relationship Management",
+        "topic2": "Negotiation Skills",
+        "topic3": "Networking Strategies"
+      },
+      "rera": {
+        "title": "RERA / HMDA / DTCP",
+        "desc": "Learn legal frameworks and regulatory compliance in Telangana.",
+        "topic1": "RERA Compliance",
+        "topic2": "HMDA Guidelines",
+        "topic3": "DTCP Regulations"
+      },
+      "sales": {
+        "title": "Sales, Marketing & Communication Skills",
+        "desc": "Advanced marketing, branding, and closing techniques.",
+        "topic1": "Lead Generation",
+        "topic2": "Closing Techniques",
+        "topic3": "Personal Branding"
+      },
+      "docs": {
+        "title": "Property Documentation",
+        "desc": "Understand legal paperwork in buying, selling, leasing.",
+        "topic1": "Sale Deeds & Agreements",
+        "topic2": "Registration Process",
+        "topic3": "Legal Due Diligence"
+      },
+      "digital": {
+        "title": "Digital lead generation",
+        "desc": "Use digital tools to market properties effectively.",
+        "topic1": "Social Media Marketing",
+        "topic2": "Content Strategy",
+        "topic3": "Online Advertising"
+      }
+    },
+
+    "modules": {
+      "heading": "Course Modules",
+      "subheading": "6 comprehensive modules designed by active industry experts"
+    },
+
+    "cta": {
+      "title": "Ready to Start Earning in Real Estate?",
+      "subtitle": "Join 2000+ students who launched their career with us. Next batch starts from 19/01/2026!",
+      "enroll": "Enroll Now & Save ₹5000",
+      "call": "Call Right Now (Toll Free)"
+    },
+
+    "learnHeading": "What You'll Master",
+
+    "learn": {
+      "target": {
+        "title": "Strategic Planning",
+        "desc": "Plan and execute successful property transactions."
+      },
+      "prof": {
+        "title": "Professionalism",
+        "desc": "Develop ethics and behavior of a top professional."
+      },
+      "tech": {
+        "title": "Tech Integration",
+        "desc": "Use CRM & real estate software tools."
+      },
+      "market": {
+        "title": "Market Insights",
+        "desc": "Understand Hyderabad property market trends."
+      },
+      "valuation": {
+        "title": "Property Valuation",
+        "desc": "Learn accurate valuation methods."
+      },
+      "compliance": {
+        "title": "Compliance Mastery",
+        "desc": "Become fully compliant with RERA, HMDA, DTCP."
+      }
+    },
+
+    "benefits": {
+      "heading": "Why Students Choose Us",
+      "b1": "Industry-Recognized Certificate",
+      "b2": "100% Placement Guaranteed",
+      "b3": "Live Project Training",
+      "b4": "1-on-1 Expert Mentorship",
+      "b5": "Networking with Top Brokers",
+      "b6": "Flexible Batch Timings",
+      "cta": "Secure Your Seat – Enroll Today!"
+    }
+  }
+
+
+}
