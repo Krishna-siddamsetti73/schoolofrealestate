@@ -28,8 +28,8 @@ const Gallery = () => {
       type: 'video',
       // Use a direct video file hosted in `public/gallery/` for reliable autoplay.
       // Place your file at: public/gallery/clip1.mp4 (or change name/path here).
-      src: '/VID_20251124_143314.mp4',
-      poster: '/VID_20251124_143314.mp4',
+      src: '/VID_20251124_143314.webm',
+      poster: '/VID_20251124_143314.webm',
       caption: 'Short clip: Students undergoing field training under the guidance of Gampa Nageshwer Rao sir.'
     },
     {

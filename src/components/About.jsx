@@ -61,7 +61,7 @@ const About = () => {
               <div className="relative aspect-[3/4] max-h-[360px] md:max-h-[380px] rounded-2xl border-4 border-[#D4A017] shadow-xl overflow-hidden">
                 <video
                   ref={videoRef}
-                  src="/Hyderabad's (1).webm"
+                  src="/Hyderabads (1).webm"
                   autoPlay
                   loop
                   muted
