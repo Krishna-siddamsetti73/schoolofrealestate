@@ -374,12 +374,12 @@ const CoursesPage = () => {
 
   {/* Original Price (Striked) */}
   <p className="text-xl font-bold text-red-500 line-through">
-    ₹15,000
+    ₹4999
   </p>
 
   {/* Discounted Price */}
   <p className="text-xl font-semibold text-[#1E3A8A]">
-    ₹9,999
+    ₹999
   </p>
 
   {/* <p className="text-[11px] text-emerald-600 font-semibold">

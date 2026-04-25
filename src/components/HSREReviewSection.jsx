@@ -3,39 +3,39 @@ import { Volume2, VolumeX } from "lucide-react";
 
 const TESTIMONIALS = [
   {
-    name: "Sai Kiran",
+    name: "praveen kumar",
     role: "Student",
     place: "Hyderabad",
     text: "Excellent course — practical site visits and real Hyderabad market insights.",
-    avatar: "https://i.pravatar.cc/150?img=32",
+    avatar: "https://thomestowers.com/wp-content/uploads/2026/04/abhi-ram.jpeg",
   },
   {
-    name: "Krishna",
+    name: "Sai sandeep",
     role: "Student",
     place: "Gachibowli",
     text: "Clear understanding of DTCP, RERA, layouts, and real estate investing.",
-    avatar: "https://i.pravatar.cc/150?img=12",
+    avatar: "https://mediumpurple-sandpiper-111248.hostingersite.com/wp-content/uploads/2026/01/7.png",
   },
   {
-    name: "Harsha",
+    name: "P.Srinivas",
     role: "Alumni",
     place: "Kukatpally",
     text: "This training helped me start my real estate career with confidence!",
-    avatar: "https://i.pravatar.cc/150?img=45",
+    avatar: "https://thomestowers.com/wp-content/uploads/2026/04/srivans.jpeg",
   },
   {
-    name: "Rajesh",
+    name: "Rupesh",
     role: "Student",
     place: "Madhapur",
     text: "Outstanding mentorship and hands-on experience with property deals.",
-    avatar: "https://i.pravatar.cc/150?img=56",
+    avatar: "https://thomestowers.com/wp-content/uploads/2026/04/rupesh.jpeg",
   },
   {
-    name: "Priya",
+    name: "paramesh",
     role: "Investor",
     place: "Hitech City",
     text: "The course gave me the expertise to identify and invest in properties wisely.",
-    avatar: "https://i.pravatar.cc/150?img=47",
+    avatar: "https://thomestowers.com/wp-content/uploads/2026/04/abhi-ram.jpeg",
   },
 ];
 
