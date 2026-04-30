@@ -7,6 +7,7 @@ import Home from '@/pages/Home';
 import CoursesPage from '@/pages/CoursesPage';
 import ContactPage from '@/pages/ContactPage';
 import { Toaster } from '@/components/ui/toaster';
+import PrivacyPolicy from '@/pages/privacypolicy';
 
 function App() {
 
@@ -183,6 +184,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/courses" element={<CoursesPage />} />
               <Route path="/contact" element={<ContactPage />} />
+              <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             </Routes>
           </section>
 
