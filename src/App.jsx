@@ -187,7 +187,6 @@ function App() {
               <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             </Routes>
           </section>
-
         </main>
 
         {/* Footer Landmark */}

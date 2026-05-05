@@ -152,7 +152,7 @@
     "items": [
       {
         "question": "What is the duration of the real estate training program?",
-        "answer": "Our comprehensive real estate training program typically runs for 10 days and Timings are 10:30 AM to 1:30 PM.Lunch is also provided."
+        "answer": "Our comprehensive real estate training program typically runs for 7 days and Timings are 10:30 AM to 1:30 PM.Lunch is also provided."
       },
       {
         "question": "Do I need any prior experience in real estate?",
@@ -285,13 +285,13 @@
       "stats3": "Student Rating",
       "enrollBtn": "Enroll Now   Limited Seats",
       "callBtn": "Call 8977533213",
-      "batchInfo": "Next batch starting  19/01/2026 • Includes field visits"
+      "batchInfo": "Next batch starting  soon • Includes field visits"
     },
 
     "card": {
       "flagship": "Flagship Program",
       "title": "Real Estate Mastery Course",
-      "point1": "10 Days Intensive Training",
+      "point1": "7 Days Intensive Training",
       "point2": "Live Deal Closures & Role Plays",
       "point3": "On-field Property & Layout Visits",
       "point4": "100% Placement",
@@ -352,7 +352,7 @@
 
     "cta": {
       "title": "Ready to Start Earning in Real Estate?",
-      "subtitle": "Join 2000+ students who launched their career with us. Next batch starts from 19/01/2026!",
+      "subtitle": "Join 2000+ students who launched their career with us. Next batch starts  soon!",
       "enroll": "Enroll Now & Save ₹5000",
       "call": "Call Right Now (Toll Free)"
     },
