@@ -33,7 +33,7 @@ const Contact = () => {
       if (!res.ok) {
         return toast({
           title: t("contact.toast.errorTitle"),
-          description: data?.message || t("contact.toast.errorDescription"),
+          description: data?.error || data?.message || t("contact.toast.errorDescription"),
           variant: "destructive",
         });
       }
