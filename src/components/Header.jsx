@@ -96,9 +96,9 @@ const Header = () => {
               {
                 "@type": "Organization",
                 name: "Hyderabad School of Real Estate",
-                url: "https://hsre.co.in",
-                logo: "https://hsre.co.in/HSR_Logo.png",
-                sameAs: ["https://hsre.co.in"]
+                url: "https://hsre.in",
+                logo: "https://www.hsre.in/HSR_Logo.png",
+                sameAs: ["https://hsre.in"]
               },
               {
                 "@type": "LocalBusiness",
@@ -108,8 +108,8 @@ const Header = () => {
                   addressLocality: "Hyderabad",
                   addressCountry: "India"
                 },
-                telephone: "+91 9636963601",
-                url: "https://hsre.co.in"
+                telephone: "+91 89775 33213",
+                url: "https://hsre.in"
               },
               {
                 "@type": "Course",
@@ -123,7 +123,7 @@ const Header = () => {
                 "@type": "SiteNavigationElement",
                 name: navLinks.map((l) => l.name),
                 url: navLinks.map((l) =>
-                  l.path === "/" ? `https://hsre.co.in/#${l.id}` : `https://hsre.co.in${l.path}`
+                  l.path === "/" ? `https://www.hsre.in/#${l.id}` : `https://hsre.in${l.path}`
                 )
               },
               {
@@ -133,7 +133,7 @@ const Header = () => {
                     "@type": "ListItem",
                     position: 1,
                     name: "Home",
-                    item: "https://hsre.co.in"
+                    item: "https://hsre.in"
                   }
                 ]
               },
@@ -277,7 +277,7 @@ const Header = () => {
             </Button>
 
             <Button
-              onClick={() => window.location.href = "tel:9636963601"}
+              onClick={() => window.location.href = "tel:89775 33213"}
               className="bg-[#1E3A8A] hover:bg-[#172554] text-white font-semibold px-6 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
               <Phone className="w-4 h-4 mr-2" />
@@ -339,7 +339,7 @@ const Header = () => {
                 </Button>
 
                 <Button
-                  onClick={() => window.location.href = "tel:9636963601"}
+                  onClick={() => window.location.href = "tel:89775 33213"}
                   className="bg-[#1E3A8A] hover:bg-[#172554] text-white w-full"
                 >
                   <Phone className="w-4 h-4 mr-2" />

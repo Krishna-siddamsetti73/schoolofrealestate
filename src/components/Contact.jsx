@@ -22,7 +22,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const res = await fetch("api/sendmail", {
+      const res = await fetch("/api/sendmail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -101,14 +101,14 @@ const Contact = () => {
     content="Contact Hyderabad School of Real Estate for RERA training, property investment courses, and real estate certification in Hyderabad. Call, WhatsApp, or visit our institute today."
   />
 
-  <link rel="canonical" href="https://hsre.in/#contact" />
+  <link rel="canonical" href="https://www.hsre.in/#contact" />
 
   <meta name="robots" content="index, follow" />
 
   {/* Open Graph */}
   <meta property="og:title" content="Contact Hyderabad School of Real Estate" />
   <meta property="og:description" content="Get in touch with HSRE for real estate training and certification courses in Hyderabad." />
-  <meta property="og:url" content="https://hsre.in/#contact" />
+  <meta property="og:url" content="https://www.hsre.in/#contact" />
   <meta property="og:type" content="website" />
 
   {/* Local Business Structured Data */}
@@ -118,7 +118,7 @@ const Contact = () => {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "Hyderabad School of Real Estate",
-      "image": "https://hsre.in/favicon.ico",
+      "image": "https://www.hsre.in/favicon.ico",
       "url": "https://hsre.in",
       "telephone": "+91-8977533213",
       "email": "info@hsre.in",

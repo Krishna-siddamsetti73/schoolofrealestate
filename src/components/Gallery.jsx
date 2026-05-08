@@ -14,13 +14,13 @@ const Gallery = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://hyderabadrealestateschool.com/"
+        "item": "https://www.hsre.in/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Gallery",
-        "item": "https://hyderabadrealestateschool.com/#gallery"
+        "item": "https://www.hsre.in/#gallery"
       }
     ]
   };
@@ -52,8 +52,8 @@ const Gallery = () => {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Hyderabad Real Estate School",
-    "image": "https://hyderabadrealestateschool.com/HSR_Logo.png",
-    "telephone": "+91-9636963601",
+    "image": "https://www.hsre.in/HSR_Logo.png",
+    "telephone": "+91-89775 33213",
     "url": "https://hyderabadrealestateschool.com"
   };
 

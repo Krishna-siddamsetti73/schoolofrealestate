@@ -57,13 +57,13 @@ const WhyChooseUs = () => {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://hsre.in/",
+        item: "https://www.hsre.in/",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Why Choose Us",
-        item: "https://hsre.in/#why-choose-us",
+        item: "https://www.hsre.in/#why-choose-us",
       },
     ],
   };

@@ -21,19 +21,19 @@ function App() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://hyderabadrealestateschool.com/"
+        "item": "https://www.hsre.in/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Courses",
-        "item": "https://hyderabadrealestateschool.com/courses"
+        "item": "https://www.hsre.in/courses"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Contact",
-        "item": "https://hyderabadrealestateschool.com/contact"
+        "item": "https://www.hsre.in/contact"
       }
     ]
   };
@@ -77,8 +77,8 @@ function App() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Hyderabad Real Estate School",
-    "image": "https://hyderabadrealestateschool.com/HSR_Logo.png",
-    "telephone": "+91-9636963601",
+    "image": "https://www.hsre.in/HSR_Logo.png",
+    "telephone": "+91-89775 33213",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Hyderabad",
@@ -114,14 +114,14 @@ function App() {
 
         {/* Crawlability + Indexing */}
         <meta name="robots" content="index, follow, max-image-preview:large" />
-        <link rel="canonical" href="https://hyderabadrealestateschool.com/" />
+        <link rel="canonical" href="https://www.hsre.in/" />
 
         {/* Open Graph SEO */}
         <meta property="og:title" content="Hyderabad Real Estate School" />
         <meta property="og:description" content="Professional Real Estate Training Institute in Hyderabad." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://hyderabadrealestateschool.com/" />
-        <meta property="og:image" content="https://hyderabadrealestateschool.com/HSR_Logo.png" />
+        <meta property="og:url" content="https://www.hsre.in/" />
+        <meta property="og:image" content="https://www.hsre.in/HSR_Logo.png" />
 
         {/* Twitter SEO */}
         <meta name="twitter:card" content="summary_large_image" />

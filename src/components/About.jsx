@@ -52,14 +52,14 @@ const About = () => {
     name="keywords"
     content="Hyderabad real estate institute, about HSRE, real estate training Hyderabad, learn real estate Hyderabad, RERA training institute Hyderabad"
   />
-  <link rel="canonical" href="https://hsre.in/about" />
+  <link rel="canonical" href="https://www.hsre.in/about" />
   <script type="application/ld+json">
 {`
 {
  "@context": "https://schema.org",
  "@type": "AboutPage",
  "name": "About Hyderabad School of Real Estate",
- "url": "https://hsre.in/about"
+ "url": "https://www.hsre.in/about"
 }
 `}
 </script>

@@ -68,13 +68,13 @@ const Testimonials = () => {
                     "@type": "ListItem",
                     "position": 1,
                     "name": "Home",
-                    "item": "https://hsre.co.in"
+                    "item": "https://hsre.in"
                   },
                   {
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Student Testimonials",
-                    "item": "https://hsre.co.in/#testimonials"
+                    "item": "https://www.hsre.in/#testimonials"
                   }
                 ]
               },
@@ -85,20 +85,20 @@ const Testimonials = () => {
                 "provider": {
                   "@type": "EducationalOrganization",
                   "name": "HSRE Real Estate Training Institute",
-                  "sameAs": "https://hsre.co.in"
+                  "sameAs": "https://hsre.in"
                 }
               },
               {
                 "@type": "LocalBusiness",
                 "name": "HSRE Real Estate Institute",
-                "image": "https://hsre.co.in/logo.png",
+                "image": "https://www.hsre.in/logo.png",
                 "address": {
                   "@type": "PostalAddress",
                   "addressLocality": "Hyderabad",
                   "addressCountry": "India"
                 },
                 "telephone": "+91XXXXXXXXXX",
-                "url": "https://hsre.co.in"
+                "url": "https://hsre.in"
               },
               {
                 "@type": "FAQPage",

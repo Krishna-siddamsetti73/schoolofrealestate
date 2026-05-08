@@ -28,14 +28,14 @@ const Courses = () => {
     content="Explore HSRE real estate courses including RERA certification, property sales training, investment strategies, and marketing courses in Hyderabad."
   />
 
-  <link rel="canonical" href="https://hsre.in/#courses" />
+  <link rel="canonical" href="https://www.hsre.in/#courses" />
 
   <meta name="robots" content="index, follow" />
 
   {/* Open Graph */}
   <meta property="og:title" content="HSRE Real Estate Courses Hyderabad" />
   <meta property="og:description" content="Learn property sales, RERA certification, and real estate investment from Hyderabad School of Real Estate." />
-  <meta property="og:url" content="https://hsre.in/#courses" />
+  <meta property="og:url" content="https://www.hsre.in/#courses" />
   <meta property="og:type" content="website" />
 
   {/* Structured Data */}

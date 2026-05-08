@@ -21,7 +21,7 @@ const Footer = () => {
     "@type": "EducationalOrganization",
     "name": "Hyderabad School of Real Estate",
     "url": "https://hsre.in",
-    "logo": "https://hsre.in/hsrefooterlogo.png",
+    "logo": "https://www.hsre.in/hsrefooterlogo.png",
     "sameAs": [
       "https://www.facebook.com/HyderabadSchoolofRealestate",
       "https://www.instagram.com/hsre.in"

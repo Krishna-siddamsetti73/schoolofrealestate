@@ -42,7 +42,7 @@ const Home = () => {
   content="Hyderabad School of Real Estate (HSRE) offers professional real estate training, RERA certification, and career-focused property education in Hyderabad."
 />
 
-<link rel="canonical" href="https://hsre.in/" />
+<link rel="canonical" href="https://www.hsre.in/" />
 <script type="application/ld+json">
 {`
 {
@@ -51,7 +51,7 @@ const Home = () => {
 
     {
       "@type": "EducationalOrganization",
-      "@id": "https://hsre.in/#organization",
+      "@id": "https://www.hsre.in/#organization",
       "name": "Hyderabad School of Real Estate",
       "url": "https://hsre.in",
       "logo": "https://www.hsre.in/HSR_Logo.png",
@@ -64,7 +64,7 @@ const Home = () => {
 
     {
       "@type": "LocalBusiness",
-      "@id": "https://hsre.in/#localbusiness",
+      "@id": "https://www.hsre.in/#localbusiness",
       "name": "Hyderabad School of Real Estate",
       "image": "https://www.hsre.in/HSR_Logo.png",
       "url": "https://hsre.in",
@@ -81,17 +81,17 @@ const Home = () => {
       },
       "priceRange": "₹₹",
       "parentOrganization": {
-        "@id": "https://hsre.in/#organization"
+        "@id": "https://www.hsre.in/#organization"
       }
     },
 
     {
       "@type": "WebSite",
-      "@id": "https://hsre.in/#website",
+      "@id": "https://www.hsre.in/#website",
       "url": "https://hsre.in",
       "name": "Hyderabad School of Real Estate",
       "publisher": {
-        "@id": "https://hsre.in/#organization"
+        "@id": "https://www.hsre.in/#organization"
       },
       "inLanguage": "en-IN"
     }
