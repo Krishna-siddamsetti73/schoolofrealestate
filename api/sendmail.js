@@ -1,14 +1,4 @@
-import express from "express";
 import nodemailer from "nodemailer";
-import cors from "cors";
-import dotenv from "dotenv";
-
-dotenv.config();
-
-const app = express();
-
-app.use(cors());
-app.use(express.json());
 
 const getMailConfig = () => {
   const SENDER_EMAIL = process.env.SENDER_EMAIL;
@@ -16,28 +6,29 @@ const getMailConfig = () => {
   const TO_EMAIL = process.env.TO_EMAIL;
 
   if (!SENDER_EMAIL || !SENDER_PASS || !TO_EMAIL) {
-    throw new Error("Missing environment variables");
+    throw new Error("Missing SENDER_EMAIL, SENDER_PASS, or TO_EMAIL environment variable.");
   }
 
   return {
-    SENDER_EMAIL,
-    SENDER_PASS,
-    TO_EMAIL,
+    SENDER_EMAIL: SENDER_EMAIL.trim(),
+    SENDER_PASS: SENDER_PASS.trim(),
+    TO_EMAIL: TO_EMAIL.trim(),
   };
 };
 
-app.post("/", async (req, res) => {
+export default async function handler(req, res) {
+  if (req.method !== "POST") {
+    return res.status(405).json({ message: "Only POST allowed" });
+  }
+
+  const { name, email, phone, message } = req.body || {};
+
+  if (!name || !email || !phone || !message) {
+    return res.status(400).json({ message: "All fields are required." });
+  }
+
   try {
-    const { name, email, phone, message } = req.body;
-
-    if (!name || !email || !phone || !message) {
-      return res.status(400).json({
-        message: "All fields required",
-      });
-    }
-
-    const { SENDER_EMAIL, SENDER_PASS, TO_EMAIL } =
-      getMailConfig();
+    const { SENDER_EMAIL, SENDER_PASS, TO_EMAIL } = getMailConfig();
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
@@ -53,25 +44,20 @@ app.post("/", async (req, res) => {
       to: TO_EMAIL,
       subject: "New Contact Form Submission from HSRE",
       html: `
-        <strong>Name:</strong> ${name}<br/>
-        <strong>Email:</strong> ${email}<br/>
-        <strong>Phone:</strong> ${phone}<br/>
+        <strong>Name:</strong> ${name}<br>
+        <strong>Email:</strong> ${email}<br>
+        <strong>Phone:</strong> ${phone}<br>
         <strong>Message:</strong> ${message}
       `,
     });
 
-    return res.status(200).json({
-      message: "Email sent successfully",
-    });
-
+    return res.status(200).json({ message: "Email sent successfully." });
   } catch (error) {
-    console.error(error);
+    console.error("EMAIL ERROR:", error.message);
 
     return res.status(500).json({
-      message: "Internal Server Error",
+      message: "Email failed.",
       error: error.message,
     });
   }
-});
-
-export default app;
+}
