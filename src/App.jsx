@@ -8,7 +8,7 @@ import CoursesPage from '@/pages/CoursesPage';
 import ContactPage from '@/pages/ContactPage';
 import { Toaster } from '@/components/ui/toaster';
 import PrivacyPolicy from '@/pages/privacypolicy';
-
+import NewsPage from '@/pages/NewsPage';
 function App() {
 
   /* ---------------- SEO STRUCTURED DATA ---------------- */
@@ -185,6 +185,7 @@ function App() {
               <Route path="/courses" element={<CoursesPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+              <Route path="/News" element={<NewsPage />} />
             </Routes>
           </section>
         </main>
