@@ -8,7 +8,7 @@ import CoursesPage from '@/pages/CoursesPage';
 import ContactPage from '@/pages/ContactPage';
 import { Toaster } from '@/components/ui/toaster';
 import PrivacyPolicy from '@/pages/privacypolicy';
-import NewsPage from '@/pages/NewsPage';
+import NewsPage from '@/pages/newspage';
 function App() {
 
   /* ---------------- SEO STRUCTURED DATA ---------------- */
