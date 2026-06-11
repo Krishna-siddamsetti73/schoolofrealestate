@@ -65,5 +65,8 @@ app.post("/api/sendmail", async (req, res) => {
     });
   }
 });
+const PORT = process.env.PORT || 5001;
 
-app.listen(5001, () => console.log("Server running on http://localhost:5001"));
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
