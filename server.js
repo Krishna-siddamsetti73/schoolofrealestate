@@ -25,7 +25,7 @@ const getMailConfig = () => {
   };
 };
 
-app.post("/api/sendmail", async (req, res) => {
+app.post("https://schoolofrealestate.onrender.com/api/sendmail", async (req, res) => {
   const { name, email, phone, message } = req.body;
 
   if (!name || !email || !phone || !message) {
