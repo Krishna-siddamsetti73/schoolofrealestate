@@ -17,7 +17,7 @@ const HEADER_HEIGHT = 96;
 
 const About = () => {
   const { t } = useTranslation();
-  const PAYMENT_LINK = "https://rzp.io/l/vvfKg15";
+  const PAYMENT_LINK = "https://www.hsre.in/contact";
 
   const features = [
     { icon: Award, text: t("about.features.certification") },
