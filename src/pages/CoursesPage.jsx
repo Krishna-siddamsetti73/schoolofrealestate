@@ -548,7 +548,7 @@ const CoursesPage = () => {
 
       {/* Floating Buttons */}
       <motion.a
-        href="https://rzp.io/l/vvfKg15"
+        href="https://www.hsre.in/contact"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-40 right-6 bg-[#D4A017] hover:bg-[#B8860B] text-white p-4 rounded-full shadow-2xl z-50 transition-all duration-300 hover:scale-110"
