@@ -26,7 +26,7 @@ import { Button } from "@/components/ui/button";
 import { MdPayments } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 
-const PAYMENT_LINK = "https://rzp.io/l/vvfKg15";
+const PAYMENT_LINK = "https://www.hsre.in/contact";
 
 const CoursesPage = () => {
   const { t } = useTranslation();
