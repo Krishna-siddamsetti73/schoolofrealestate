@@ -12,7 +12,7 @@ const Footer = () => {
   const location = useLocation();
   const { t, i18n } = useTranslation();
 
-  const PAYMENT_LINK = "https://rzp.io/l/vvfKg15";
+  const PAYMENT_LINK = "https://www.hsre.in/contact";
 
   /* ---------------- SCHEMA ---------------- */
 
