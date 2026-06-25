@@ -168,8 +168,17 @@ const Header = () => {
     { name: t("header.gallery"), id: "gallery", path: "/" },
     { name: t("header.faqs"),    id: "faqs",    path: "/" },
     { name: t("header.courses"), id: "courses", path: "/courses" },
-    {name : t("header.News"), id: "News", path: "/news" },
     { name: t("header.contact"), id: "contact", path: "/contact" },
+    {
+  name: "Resources",
+  id: "resources",
+  dropdown: true,
+  children: [
+    { name: "News", path: "/news" },
+    { name: "Blogs", path: "/blogs" },
+    { name: "Testimonials", path: "/testimonials" },
+  ],
+}
   ];
 
   useEffect(() => {
@@ -267,34 +276,45 @@ const Header = () => {
               className="hidden lg:flex items-center space-x-6 xl:space-x-8"
             >
               {navLinks.map((link, index) => (
-                <motion.button
-                  key={link.id}
-                  onClick={() => handleNavClick(link)}
-                  initial={{ opacity: 0, y: -10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.3, delay: index * 0.1 }}
-                  className={`relative text-sm font-medium transition-colors duration-300 ${
-                    ((location.pathname === "/" && activeSection === link.id) ||
-                      (location.pathname === link.path && link.path !== "/"))
-                      ? "text-[#D4A017]"
-                      : "text-[#2F3542] hover:text-[#1E3A8A]"
-                  }`}
-                >
-                  {link.name}
-                  <motion.span
-                    className="absolute -bottom-1 left-0 h-0.5 bg-[#D4A017]"
-                    initial={{ width: 0 }}
-                    animate={{
-                      width:
-                        (location.pathname === "/" && activeSection === link.id) ||
-                        (location.pathname === link.path && link.path !== "/")
-                          ? "100%"
-                          : 0,
-                    }}
-                    transition={{ duration: 0.3 }}
-                  />
-                </motion.button>
-              ))}
+  <div key={link.id} className="relative group">
+    {link.dropdown ? (
+      <>
+        <button
+          className="text-sm font-medium text-[#2F3542] hover:text-[#1E3A8A]"
+        >
+          {link.name}
+        </button>
+
+        <div className="absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+          {link.children.map((item) => (
+            <button
+              key={item.path}
+              onClick={() => navigate(item.path)}
+              className="block w-full text-left px-4 py-3 hover:bg-gray-100"
+            >
+              {item.name}
+            </button>
+          ))}
+        </div>
+      </>
+    ) : (
+      <motion.button
+        onClick={() => handleNavClick(link)}
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.3, delay: index * 0.1 }}
+        className={`relative text-sm font-medium transition-colors duration-300 ${
+          ((location.pathname === "/" && activeSection === link.id) ||
+            (location.pathname === link.path && link.path !== "/"))
+            ? "text-[#D4A017]"
+            : "text-[#2F3542] hover:text-[#1E3A8A]"
+        }`}
+      >
+        {link.name}
+      </motion.button>
+    )}
+  </div>
+))}
             </motion.div>
 
             {/* Desktop Buttons */}
@@ -313,7 +333,7 @@ const Header = () => {
               </Button>
 
               <Button
-                onClick={() => navigate("/contact")}
+                onClick={() => navigate("https://rzp.io/rzp/qTz2Nr1u")}
                 className="bg-[#1E3A8A] hover:bg-[#172554] text-white font-semibold px-6 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
                 <Users className="w-4 h-4 mr-2" />

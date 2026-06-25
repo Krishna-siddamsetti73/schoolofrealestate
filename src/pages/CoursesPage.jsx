@@ -26,7 +26,7 @@ import { Button } from "@/components/ui/button";
 import { MdPayments } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 
-const PAYMENT_LINK = "https://www.hsre.in/contact";
+const PAYMENT_LINK = "https://rzp.io/rzp/qTz2Nr1u";
 
 const CoursesPage = () => {
   const { t } = useTranslation();
@@ -548,7 +548,7 @@ const CoursesPage = () => {
 
       {/* Floating Buttons */}
       <motion.a
-        href="https://www.hsre.in/contact"
+        href="https://rzp.io/rzp/qTz2Nr1u"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-40 right-6 bg-[#D4A017] hover:bg-[#B8860B] text-white p-4 rounded-full shadow-2xl z-50 transition-all duration-300 hover:scale-110"

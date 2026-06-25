@@ -64,15 +64,15 @@ const Gallery = () => {
 
   const galleryData = {
     highlights: [
-      { src: 'https://lh3.googleusercontent.com/pw/AP1GczOafXRCpIPPC36TX0kYVKfRBcsCW_kach7VURimE7-3KboTTjU4sfyOyGJda9QeS5NW1TKCKqkgR8JNIGwvBEpLFHC4GSjnTiJNCVAKARW9b_5PNuGvA8yWDtZtVpi2CTGA9-msHuj-jHhDVeiM7ffa=w1170-h878-s-no-gm?authuser=0', caption: 'Students during interactive real estate training session' },
-      { src: 'https://lh3.googleusercontent.com/pw/AP1GczNSZpbPzk3_cdMS9B7NQxZH9X4ch0rPw-Gtr1msVEbHsST7KD37OyhP3y5-3Z0y97vGFaVAEPlS7iijnal1YhtJJikwmHQ8a5Q30QB2MWjkcSlCna5R-9DZdpG9Rl-Y299_nlg9c2KBe_LuFb1oDq3T=w1166-h878-s-no-gm?authuser=0', caption: 'Interactive classroom session with Gampa Nageshwer Rao sir' },
-      { src: 'https://lh3.googleusercontent.com/pw/AP1GczNuFsVJWjSKAHZGKto96t0yxKbS1ahBilAvtZj37lvUcDCOrQbYH6594_VolFDDMSMkLjKrJGgS-SESESRjdhUrIo1tJdg5osf_fkIrggPCJJ8LWk1r9lqyZD0a4JjD0qTI8zDfwF2dQHQKDiVFreiG=w1215-h915-s-no-gm?authuser=0', caption: 'Property site visit with students learning field inspection' },
-      { src: 'https://lh3.googleusercontent.com/pw/AP1GczMf9kNzj2YIHplOSKRA0LBhOayYGW5z2EtyI_on73X-5YgaSwRIdVi7Fr8gRXNduAmF2V_XbHDXhi4cX3WZ1xavuMViqK5jgyAIGnE8U_VrjPilzbpAuOf13Bqa_kjbXYl2AWyK-dlgMKdVEsLR7zFS=w1215-h915-s-no-gm?authuser=0', caption: 'Professional certification ceremony for graduates' },
-      { type: 'video', src: '/VID_20251124_143314.webm', poster: '/VID_20251124_143314.webm', caption: 'Students undergoing field training under guidance' },
-      { src: 'https://lh3.googleusercontent.com/pw/AP1GczOv2TgJ74pB-lC3G6FOjYh9GWp-9hG5rHRmov_C9GuEBGjVIMy8x1C0tdm1sXtnIE63EcIghK29m46MFwQboOdPbkmHFrQCg8YVeELlUvvNDhrPHGbqyI8RmwLS4bnwInb2cuBa4RC34eRM5tvJYHc=w1215-h915-s-no-gm?authuser=0', caption: 'Sales skills training and role-play session' },
-      { src: 'https://lh3.googleusercontent.com/pw/AP1GczMuWV_XhvAS41ft-yMRGOlYMJkEgmWtmVhSdZgooTx7P1E7UcdsynGNFMU4rC7LxN4kgOoUKyU5f-6KgeLJPUSTg8BshMeCXCKFtKnIPrSbvv7xX1xVsRbTuATdf8Cs2tcfPBLk4tyn2eKIc_2HLcfH=w1215-h915-s-no-gm?authuser=0', caption: 'Guest lecture by industry real estate expert' },
-      { src: 'https://lh3.googleusercontent.com/pw/AP1GczNrHTEcvO4VSOB5YbYEg8MDsMIvIQc4-qi62qu8tLWnEHFjZ0zknC6dB929FXx5RYwup0KlDFO2FSoeBhvAZoB1HusDT2pVTRohbxlPpsou519nxv2mGWECKNGb_Pn3tAlpbupT71dhV7K2Durd7wKC=w1215-h915-s-no-gm?authuser=0', caption: 'Digital marketing workshop for real estate agents' },
-      { src: 'https://lh3.googleusercontent.com/pw/AP1GczP9zij0ZE3aAARPXWGB-9bVnMBvjyUH49CGPJX84Qqq1zXipiaT_Kk45khGog11WRQjOlE-VY9mstBo3RGMyx2qoIOAqq8LMDQ5EuTjBu2duEWpsjKEe6pysCRjMUrtwEVI_DNqokYaiWgc1sSjIStj=w1215-h915-s-no-gm?authuser=0', caption: 'Practical negotiation skills training session' },
+      { src: 'https://thomestowers.com/wp-content/uploads/2026/06/IMG_8163-scaled.jpg', caption: 'Students during interactive real estate training session' },
+      { src: 'https://thomestowers.com/wp-content/uploads/2026/06/IMG_20251214_125219.jpg', caption: 'Interactive classroom session with Gampa Nageshwer Rao sir' },
+      { src: 'https://thomestowers.com/wp-content/uploads/2026/06/IMG_0297-scaled.jpg', caption: 'Property site visit with students learning field inspection' },
+      { src: 'https://thomestowers.com/wp-content/uploads/2026/06/IMG_8192-scaled.jpg', caption: 'Professional certification ceremony for graduates' },
+      { type: 'video', src: 'https://thomestowers.com/wp-content/uploads/2026/06/IMG_9785-scaled.jpg', poster: '/VID_20251124_143314.webm', caption: 'Students undergoing field training under guidance' },
+      { src: 'https://thomestowers.com/wp-content/uploads/2026/06/IMG_9226-scaled.jpg', caption: 'Sales skills training and role-play session' },
+      { src: 'https://thomestowers.com/wp-content/uploads/2026/06/IMG_9785-scaled.jpg', caption: 'Guest lecture by industry real estate expert' },
+      { src: 'https://thomestowers.com/wp-content/uploads/2026/06/IMG_8109-scaled.jpg', caption: 'Digital marketing workshop for real estate agents' },
+      { src: 'https://thomestowers.com/wp-content/uploads/2026/06/IMG_9737-scaled.jpg', caption: 'Practical negotiation skills training session' },
     ],
     batch1: [
       { src: 'https://lh3.googleusercontent.com/pw/AP1GczOafXRCpIPPC36TX0kYVKfRBcsCW_kach7VURimE7-3KboTTjU4sfyOyGJda9QeS5NW1TKCKqkgR8JNIGwvBEpLFHC4GSjnTiJNCVAKARW9b_5PNuGvA8yWDtZtVpi2CTGA9-msHuj-jHhDVeiM7ffa=w1170-h878-s-no-gm?authuser=0', caption: 'Batch 1 – Session 1' },
@@ -88,12 +88,12 @@ const Gallery = () => {
 
     // --- Replace with actual Batch 2 images ---
     batch2: [
-      { src: 'https://lh3.googleusercontent.com/pw/AP1GczNSZpbPzk3_cdMS9B7NQxZH9X4ch0rPw-Gtr1msVEbHsST7KD37OyhP3y5-3Z0y97vGFaVAEPlS7iijnal1YhtJJikwmHQ8a5Q30QB2MWjkcSlCna5R-9DZdpG9Rl-Y299_nlg9c2KBe_LuFb1oDq3T=w1166-h878-s-no-gm?authuser=0', caption: 'Batch 2 – Session 1' },
-      { src: 'https://lh3.googleusercontent.com/pw/AP1GczNuFsVJWjSKAHZGKto96t0yxKbS1ahBilAvtZj37lvUcDCOrQbYH6594_VolFDDMSMkLjKrJGgS-SESESRjdhUrIo1tJdg5osf_fkIrggPCJJ8LWk1r9lqyZD0a4JjD0qTI8zDfwF2dQHQKDiVFreiG=w1215-h915-s-no-gm?authuser=0', caption: 'Batch 2 – Session 2' },
-      { src: 'https://lh3.googleusercontent.com/pw/AP1GczMf9kNzj2YIHplOSKRA0LBhOayYGW5z2EtyI_on73X-5YgaSwRIdVi7Fr8gRXNduAmF2V_XbHDXhi4cX3WZ1xavuMViqK5jgyAIGnE8U_VrjPilzbpAuOf13Bqa_kjbXYl2AWyK-dlgMKdVEsLR7zFS=w1215-h915-s-no-gm?authuser=0', caption: 'Batch 2 – Session 3' },
-      { src: 'https://lh3.googleusercontent.com/pw/AP1GczOv2TgJ74pB-lC3G6FOjYh9GWp-9hG5rHRmov_C9GuEBGjVIMy8x1C0tdm1sXtnIE63EcIghK29m46MFwQboOdPbkmHFrQCg8YVeELlUvvNDhrPHGbqyI8RmwLS4bnwInb2cuBa4RC34eRM5tvJYHc=w1215-h915-s-no-gm?authuser=0', caption: 'Batch 2 – Session 4' },
-      { src: 'https://lh3.googleusercontent.com/pw/AP1GczMuWV_XhvAS41ft-yMRGOlYMJkEgmWtmVhSdZgooTx7P1E7UcdsynGNFMU4rC7LxN4kgOoUKyU5f-6KgeLJPUSTg8BshMeCXCKFtKnIPrSbvv7xX1xVsRbTuATdf8Cs2tcfPBLk4tyn2eKIc_2HLcfH=w1215-h915-s-no-gm?authuser=0', caption: 'Batch 2 – Session 5' },
-      { src: 'https://lh3.googleusercontent.com/pw/AP1GczNrHTEcvO4VSOB5YbYEg8MDsMIvIQc4-qi62qu8tLWnEHFjZ0zknC6dB929FXx5RYwup0KlDFO2FSoeBhvAZoB1HusDT2pVTRohbxlPpsou519nxv2mGWECKNGb_Pn3tAlpbupT71dhV7K2Durd7wKC=w1215-h915-s-no-gm?authuser=0', caption: 'Batch 2 – Session 6' },
+      { src: 'https://thomestowers.com/wp-content/uploads/2026/06/IMG_9212-scaled.jpg', caption: 'Batch 2 – Session 1' },
+      { src: 'https://thomestowers.com/wp-content/uploads/2026/06/IMG_9737-scaled.jpg', caption: 'Batch 2 – Session 2' },
+      { src: 'https://thomestowers.com/wp-content/uploads/2026/06/IMG_9222-scaled.jpg', caption: 'Batch 2 – Session 3' },
+      { src: 'https://thomestowers.com/wp-content/uploads/2026/06/IMG_9210-scaled.jpg', caption: 'Batch 2 – Session 4' },
+      { src: 'https://thomestowers.com/wp-content/uploads/2026/06/IMG_9226-scaled.jpg', caption: 'Batch 2 – Session 5' },
+      { src: '', caption: 'Batch 2 – Session 6' },
       { src: 'https://lh3.googleusercontent.com/pw/AP1GczP9zij0ZE3aAARPXWGB-9bVnMBvjyUH49CGPJX84Qqq1zXipiaT_Kk45khGog11WRQjOlE-VY9mstBo3RGMyx2qoIOAqq8LMDQ5EuTjBu2duEWpsjKEe6pysCRjMUrtwEVI_DNqokYaiWgc1sSjIStj=w1215-h915-s-no-gm?authuser=0', caption: 'Batch 2 – Session 7' },
       { src: 'https://lh3.googleusercontent.com/pw/AP1GczOafXRCpIPPC36TX0kYVKfRBcsCW_kach7VURimE7-3KboTTjU4sfyOyGJda9QeS5NW1TKCKqkgR8JNIGwvBEpLFHC4GSjnTiJNCVAKARW9b_5PNuGvA8yWDtZtVpi2CTGA9-msHuj-jHhDVeiM7ffa=w1170-h878-s-no-gm?authuser=0', caption: 'Batch 2 – Session 8' },
       { src: 'https://lh3.googleusercontent.com/pw/AP1GczNSZpbPzk3_cdMS9B7NQxZH9X4ch0rPw-Gtr1msVEbHsST7KD37OyhP3y5-3Z0y97vGFaVAEPlS7iijnal1YhtJJikwmHQ8a5Q30QB2MWjkcSlCna5R-9DZdpG9Rl-Y299_nlg9c2KBe_LuFb1oDq3T=w1166-h878-s-no-gm?authuser=0', caption: 'Batch 2 – Session 9' },

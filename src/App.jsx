@@ -9,6 +9,9 @@ import ContactPage from '@/pages/ContactPage';
 import { Toaster } from '@/components/ui/toaster';
 import PrivacyPolicy from '@/pages/privacypolicy';
 import NewsPage from '@/pages/newspage';
+import Blogs from '@/pages/BlogsPage';
+import BlogPost from '@/pages/blogsslug';
+import Testimonials from '@/components/Testimonials';
 function App() {
 
   /* ---------------- SEO STRUCTURED DATA ---------------- */
@@ -186,6 +189,9 @@ function App() {
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/privacypolicy" element={<PrivacyPolicy />} />
               <Route path="/News" element={<NewsPage />} />
+              <Route path="/blogs" element={<Blogs />} />
+              <Route path="/blogs/:slug" element={<BlogPost />} />
+              <Route path="/testimonials" element={<Testimonials />} />
             </Routes>
           </section>
         </main>

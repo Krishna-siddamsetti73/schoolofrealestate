@@ -8,6 +8,7 @@ import Gallery from '@/components/Gallery';
 import FAQs from '@/components/FAQs';
 import Contact from '@/components/Contact';
 import HSREReviewSection from '@/components/HSREReviewSection';
+import BlogPreview from '@/components/BlogPreview';
 import { Helmet } from "react-helmet-async";
 
 
@@ -132,6 +133,9 @@ const Home = () => {
       <HSREReviewSection />
     </section>
 
+    <section id="blog-preview">
+      <BlogPreview />
+    </section>
     <section id="why-choose-us">
       <WhyChooseUs />
     </section>
