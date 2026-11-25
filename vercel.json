@@ -1,5 +1,13 @@
 {
   "rewrites": [
-    { "source": "/((?!api/.*).*)", "destination": "/index.html" }
+    { "source": "/((?!api/.*).*)", "destination": "/index.html" },
+    {
+      "source": "/landing",
+      "destination": "https://hsrelanding.vercel.app/landing"
+    },
+    {
+      "source": "/landing/:path*",
+      "destination": "https://hsrelanding.vercel.app/landing/:path*"
+    }
   ]
 }
